@@ -1,0 +1,46 @@
+.center-content{
+	margin-top: 20px;
+	text-align: center;
+}
+
+.hero-unit{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.button-close-newUser{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+.pongwars-rules{
+	position: relative;
+}
+
+.player-select{
+	display: inline;
+}
+
+.scores-ribbon{
+	margin-bottom: 20px;
+}
+
+.battles-ribbon{
+	margin-bottom: 20px;
+}
+
+.powered-ribbon{
+	margin-bottom: 20px;
+}
+
+.score-input{
+	width: 30px;
+}
