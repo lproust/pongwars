@@ -76,7 +76,12 @@ Route::post('matchPrediction', function(){
 });
 
 Route::get('matchs', function(){
-	return Match::orderBy('created_at', 'desc')->get();
+	$matchs = Match::orderBy('created_at', 'desc')->get();
+	foreach($matchs as $match){
+		$match->winner_name = User::find($match->winner_id)->name;
+		$match->loser_name = User::find($match->loser_id)->name;
+	}
+	return $matchs;
 });
 
 Route::post('users', function(){
