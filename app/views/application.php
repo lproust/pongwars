@@ -87,7 +87,7 @@
 				</tr>
 			</tbody>
 		</table>
-		<!--
+		
 		<div class="center-content">
 			<img src="img/battle.png">
 		</div>
@@ -108,10 +108,10 @@
 				</tr>
 			</tbody>
 		</table>
-		-->
+
 		<div class="center-content powered-ribbon">
 			<p>Bug, idée d'amélioration ? <a href="mailto:alexandre.mouillard@ubixr.com">alexandre.mouillard@ubixr.com</a></p>
-			<a href="http://www.vigisys.fr"><img src="img/poweredbyvigisys.png"></a>
+			<a href="http://www.vigisys.fr" target="_blank"><img src="img/poweredbyvigisys.png"></a>
 		</div>
 		<!--
 		<form ng-submit="saveNewUser()">
