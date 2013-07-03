@@ -17,8 +17,6 @@ class CreateMatchsTable extends Migration {
 			$table->increments('id');
 			$table->integer('winner_id');
 			$table->integer('loser_id');
-			$table->integer('winner_score');
-			$table->integer('loser_score');
 			$table->timestamps();
 		});
 	}
